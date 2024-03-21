@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/browse.scss';
+@import 'blocks/products.scss';
+@import 'blocks/inspo.scss';
+@import 'blocks/share.scss';
+@import 'blocks/footer.scss';

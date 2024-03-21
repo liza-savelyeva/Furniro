@@ -1,0 +1,32 @@
+.browse {
+    padding: 5% 7% 3% 7%;
+}
+
+.browse * {
+    text-align: center;
+}
+
+.browse__rooms {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    justify-items: center;
+    gap: 5% 2%;
+    margin-top: 5%;
+}
+
+.text_color_6 {
+    color: #666666;
+}
+
+.text_size_24 {
+    font-size: 24px;
+}
+
+.text_size_32 {
+    font-size: 32px;
+}
+
+.text_size_20 {
+    font-size: 20px;
+}

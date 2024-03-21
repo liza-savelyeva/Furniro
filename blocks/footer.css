@@ -1,0 +1,65 @@
+.footer {
+  padding: 3% 5%;
+  border-top: 1px solid #D9D9D9;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1.1fr 2.4fr;
+  grid-template-rows: repeat(6, auto);
+  gap: 17% 10%;
+}
+
+.footer__item_1 {
+  grid-row-start: span 4;
+}
+
+.footer__item_2 {
+  grid-row-start: span 2;
+}
+
+.footer__item_3 {
+  border-top: 1px solid #D9D9D9;
+  grid-column-start: span 4;
+  padding: 3% 0;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 3%;
+  align-items: start;
+}
+
+input {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 14vw;
+}
+
+*::-moz-placeholder {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 14;
+  color: #9F9F9F;
+}
+
+*::placeholder {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 14;
+  color: #9F9F9F;
+}
+
+.button_color_black {
+  background-color: #FFFFFF;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.text_color_9F {
+  color: #9F9F9F;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,67 @@
+.share {
+  padding: 5% 0;
+}
+
+.share * {
+  text-align: center;
+}
+
+.share__wall {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 2%;
+}
+
+.wall__item_1 {
+  align-self: end;
+  justify-self: end;
+}
+
+.wall__item_2 {
+  grid-column-start: span 2;
+  align-self: end;
+  justify-self: end;
+}
+
+.wall__item_3 {
+  grid-row-start: span 3;
+  align-self: center;
+}
+
+.wall__item_4 {
+  grid-row-start: span 2;
+  grid-column-start: span 2;
+  align-self: end;
+  justify-self: start;
+}
+
+.wall__item_5 {
+  grid-row-start: span 2;
+  align-self: end;
+  justify-self: start;
+}
+
+.wall__item_6 {
+  grid-row-start: span 2;
+  grid-column-start: span 2;
+  align-self: start;
+  justify-self: end;
+}
+
+.wall__item_7 {
+  grid-row-start: span 2;
+  align-self: start;
+  justify-self: end;
+}
+
+.wall__item_8 {
+  align-self: start;
+  justify-self: start;
+}
+
+.wall__item_9 {
+  grid-column-start: span 2;
+  align-self: start;
+  justify-self: start;
+}/*# sourceMappingURL=share.css.map */
